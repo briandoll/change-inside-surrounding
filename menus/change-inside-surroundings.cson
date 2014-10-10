@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable change-inside-surroundings': 'change-inside-surroundings:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'change-inside-surroundings'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'change-inside-surroundings:toggle' }
+      ]
+    ]
+  }
+]

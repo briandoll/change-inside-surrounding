@@ -1,0 +1,14 @@
+{
+  "name": "change-inside-surroundings",
+  "main": "./lib/change-inside-surroundings",
+  "version": "0.0.1",
+  "description": "Change the text inside a pair of surroundings with one keystroke",
+  "activationEvents": ["change-inside-surroundings:change"],
+  "repository": "https://github.com/briandoll/change-inside-surroundings",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
